@@ -6,7 +6,11 @@
 <script type="text/javascript" src="jquery/jquery-simple.js"></script>
 <script>
 $(function(){
+	console.log($());
+	
 	var $obj = $(".par");
+	console.log($obj.length, $obj[0]);
+	
 	$obj.click(function(){
 		console.log("clicked:" + this);
 	});
