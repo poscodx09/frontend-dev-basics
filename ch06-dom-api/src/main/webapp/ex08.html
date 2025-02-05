@@ -3,6 +3,19 @@
 <head>
 	<title>ex08</title>
 	<meta charset="UTF-8">
+	<script>
+		window.onload = function(){
+			setTimeout(function(){
+				var imgElement = document.createElement('img');
+				imgElement.style.width = '300px';
+				imgElement.src = '/ch06/profile.webp';
+				imgElement.alt = '뽀로로';
+				imgElement.title = '뽀로로';
+				
+				document.body.appendChild(imgElement);
+			}, 2000);
+		}
+	</script>
 </head>
 <body>
 	<h1 id='h' data-no='10'>DOM(Document Object Model)</h1>
