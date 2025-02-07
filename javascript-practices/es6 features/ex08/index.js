@@ -14,3 +14,6 @@ console.log('subtract', m.subtract(20, 10));
 console.log('add', m.add(10, 20));
 
 console.log('===[Test: Named + unname Export Module]')
+import math, {add} from './mods/ex04.mjs';
+console.log(math.add(10, 20));
+console.log(add(10, 20));
